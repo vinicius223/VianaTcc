@@ -47,6 +47,11 @@ nav a {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+
 footer {
     background: #000;
     padding: 10px;
