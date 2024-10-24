@@ -74,7 +74,7 @@ form {
 /* Estilo do título */
 h2 {
     text-align: center;
-    color: #7c1717;
+    color: #eeeeee;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@ h2 {
 /* Estilo dos rótulos */
 label {
     font-size: 16px;
-    color: #333;
+    color: #fffafa;
     margin-bottom: 10px;
     display: block;
 }
@@ -105,7 +105,7 @@ textarea {
 input[type="text"]:focus, 
 input[type="email"]:focus, 
 textarea:focus {
-    border-color: #66afe9;
+    border-color: #0065b8;
     outline: none;
 }
 
