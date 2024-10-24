@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Games - Call of Duty</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="conteudo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Manipulação DOM</title>
+    <script>
+    let count = 0;
+      function incrementCount() {
+        count++;
+        document.getElementById("count-display").textContent = count;
+      }
+    </script>
 </head>
-<body>
-    <header>
-        <div class="logo">Call of Duty</div>
-      
-    </header>
-    
+<body onselectstart="return false;">
 
-    <footer>
-        <p>&copy; Vini Vi4n4 2024 </p>
-    </footer>
+<div class="dom">
+  <h1>Manipulação do DOM</h1>
+  <button onclick="incrementCount()">Clique aqui!</button>
+  <p>Total de Cliques: <span id="count-display">0</span></p>
+</div>
+
+<script defer src="conteudo.js"></script>
 </body>
 </html>
