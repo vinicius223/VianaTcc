@@ -28,7 +28,7 @@ body {
   /* Estilo do botão */
   button {
     background-color: #4CAF50; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    color: rgb(0, 0, 0); /* Cor do texto do botão */
     border: none; /* Remove a borda padrão */
     padding: 10px 20px; /* Espaçamento interno do botão */
     border-radius: 5px; /* Cantos arredondados do botão */
@@ -48,3 +48,5 @@ body {
     color: #555; /* Cor do texto do parágrafo */
     margin-top: 20px; /* Espaço acima do parágrafo */
   }
+
+

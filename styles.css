@@ -74,7 +74,7 @@ form {
 /* Estilo do título */
 h2 {
     text-align: center;
-    color: #eeeeee;
+    color: #000000;
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@ h2 {
 /* Estilo dos rótulos */
 label {
     font-size: 16px;
-    color: #fffafa;
+    color: #000000;
     margin-bottom: 10px;
     display: block;
 }
@@ -94,7 +94,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 16px;
     box-sizing: border-box;
@@ -114,7 +114,7 @@ input[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 4px;
     font-size: 18px;
