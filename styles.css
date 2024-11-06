@@ -137,3 +137,100 @@ input[type="submit"]:hover {
         font-size: 20px;
     }
 }
+
+
+
+
+
+
+
+/* Estilo geral do formulário */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo do título */
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilo dos campos de input e textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Mudança de cor ao focar nos campos */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #0065b8;
+    outline: none;
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Mudança de cor ao passar o mouse no botão */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da mensagem de erro */
+.error-message {
+    color: #f00;
+    font-size: 14px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Ajuste para visualização em dispositivos móveis */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
